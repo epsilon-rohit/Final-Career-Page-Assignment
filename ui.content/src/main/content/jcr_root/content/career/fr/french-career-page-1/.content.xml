@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-01-10T16:46:18.393+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/qwerty!/settings/wcm/templates/french-career-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="French Career Page 1"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2022-01-03T11:12:12.514+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-03T11:12:19.368+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <herobanner
+                    jcr:created="{Date}2022-01-03T11:14:31.526+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T18:16:27.903+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/herobanner"
+                    fileReference="/content/dam/career/img.png"
+                    text="Carrières"/>
+                <french_belowbanner
+                    jcr:created="{Date}2022-01-03T12:36:13.199+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T12:37:03.129+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/french-belowbanner"
+                    text="Présentation"
+                    text1="Offres d'emploi"
+                    text2="Développement au sein du groupe"/>
+                <overview
+                    jcr:created="{Date}2022-01-03T12:43:25.951+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T12:44:40.677+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/overview"
+                    text="Présentation"
+                    text1="LES FEMMES ET LES HOMMES QUI TRAVAILLENT AU SEIN DE PUBLICIS GROUPE SONT PRÊTS À AFFRONTER L’AVENIR MIEUX QUE QUICONQUE DANS N’IMPORTE QUELLE AUTRE ENTREPRISE CRÉATIVE. DEPUIS LA CRÉATION DU GROUPE EN 1926, NOUS N’AVONS EU DE CESSE DE MONTRER LA VOIE DU CHANGEMENT.">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </overview>
+                <talent_equation
+                    jcr:created="{Date}2022-01-03T12:45:10.174+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T12:45:17.521+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/talent-equation"
+                    text="Talent@Publicis Groupe">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="10"/>
+                    </cq:responsive>
+                </talent_equation>
+                <talentequationbody
+                    jcr:created="{Date}2022-01-03T12:50:42.403+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T12:50:53.207+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/talentequationbody"
+                    text="Nous sommes toujours parvenus à anticiper les développements et les points d’inflexion de nos métiers, en investissant notamment dans le secteur du numérique, dès ses balbutiements et ce, avec succès. La transformation va de pair avec les mutations considérables qui s’opèrent dans l’économie, en matière de technologie et au sein de la société dans son ensemble. C’est la raison pour laquelle nous souhaitons attirer les talents qui sauront encourager les clients à se réinventer et les guider vers leur transformation, à l’heure de la convergence et de la responsabilisation.  Le défi est là : accompagner nos clients dans la transformation de leur entreprise. Cette mission requiert des personnalités hautes en couleur et un enthousiasme débordant face à l’explosion des possibles provoquée par la révolution numérique.">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </talentequationbody>
+                <talent_equation_1179301680
+                    jcr:created="{Date}2022-01-03T12:52:29.670+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-03T12:52:43.552+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/talent-equation"
+                    text="Les qualités des talents de Publicis Groupe">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="10"/>
+                    </cq:responsive>
+                </talent_equation_1179301680>
+                <french_talent_body
+                    jcr:created="{Date}2022-01-03T12:53:02.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-07T15:53:03.905+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/french-talent-body"
+                    text="La philosophie de Publicis Groupe évolue autour de l’équation :"
+                    text2="( IQ + EQ + TQ )"
+                    text3="IQ désigne le quotient intellectuel, EQ, le quotient émotionnel, TQ, le quotient technologique. Les talents que nous recrutons doivent se distinguer dans les domaines suivants :">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </french_talent_body>
+                <french_secretary
+                    jcr:created="{Date}2022-01-03T12:54:36.388+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-07T15:49:20.747+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/french-secretary"
+                    fileName="anne-gabrielle-heilbroner.jpg"
+                    fileReference="/content/dam/career/anne-gabrielle-heilbroner.jpg"
+                    firstname="Anne-Gabrielle"
+                    text2="Heilbronner"
+                    text3="MEMBRE DU DIRECTOIRE,"
+                    text4="SECRÉTAIRE GÉNÉRAL,"
+                    text5="PUBLICIS GROUPE"
+                    text6=".">
+                    <file/>
+                </french_secretary>
+                <pinkimage
+                    jcr:created="{Date}2022-01-06T11:44:30.408+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-06T11:45:02.890+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/pinkimage"
+                    fileReference="/content/dam/career/pink image.jpg"
+                    text="Discover the network and agencies of"
+                    text2="Publicis Groupe"
+                    text3="OUR SOLUTIONS"/>
+                <abovefooter
+                    jcr:created="{Date}2022-01-10T16:46:04.356+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-10T16:46:18.391+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/abovefooter"
+                    text="QUE FONT NOS TALENTS ?"
+                    text2="PARCOURS PROFESSIONNELS"
+                    text3="TOUT VOIR "/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
