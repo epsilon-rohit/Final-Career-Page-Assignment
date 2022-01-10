@@ -1,0 +1,20 @@
+
+.herobannercontainer1 {
+  position: relative;
+  text-align: center;
+
+}
+.herobannercentered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.herobannerstart-page__title {
+    padding: .4em;
+    display: table-cell;
+    vertical-align: middle;
+   background-color: #9d833e;
+    color: #fff;
+}
+
