@@ -2,12 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T17:28:34.510+05:30"
+        cq:adobeTargetExportFormat="html"
+        cq:lastModified="{Date}2022-01-11T15:12:00.104+05:30"
         cq:lastModifiedBy="admin"
-        cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="French Footer"
+        jcr:title="English Page Header"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
 </jcr:root>
