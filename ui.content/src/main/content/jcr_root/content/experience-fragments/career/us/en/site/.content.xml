@@ -3,6 +3,14 @@
     cq:adobeTargetExportFormat="html"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="Site">
-    <header/>
+    <final-career-header/>
+    <french-career-page/>
+    <final-footer/>
+    <french-footer/>
     <footer/>
+    <header/>
+    <English_x0020_Page_x0020_Footer/>
+    <English_x0020_Page_x0020_Header/>
+    <French_x0020_Page_x0020_Footer/>
+    <French_x0020_Page_x0020_Header/>
 </jcr:root>

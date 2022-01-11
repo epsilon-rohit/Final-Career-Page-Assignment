@@ -2,14 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-07T17:18:56.098+05:30"
+        cq:lastModified="{Date}2022-01-11T20:59:23.651+05:30"
         cq:lastModifiedBy="admin"
-        cq:tags="[]"
         cq:template="/conf/career/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="FINAL CAREER HEADER"
+        jcr:title="English-Page-Header"
         sling:resourceType="career/components/xfpage">
         <root
             jcr:lastModified="{Date}2022-01-02T21:13:48.482+05:30"
@@ -44,5 +43,6 @@
                 text4="INVESTORS"
                 text5="FR"/>
         </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
