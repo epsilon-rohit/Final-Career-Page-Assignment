@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-20T16:56:54.114+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/training/settings/wcm/templates/training"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2021-11-29T12:17:26.776+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <experiencefragment
+                jcr:created="{Date}2021-12-20T15:51:53.823+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-12-20T15:52:57.096+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                fragmentPath="/content/experience-fragments/career/us/en/site/career-header/master"
+                text="Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â NEWSÂ Â Â Â THE GROUPEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â SERVICESÂ Â Â Â INVESTORSÂ Â Â Â Â Â Â Â Â Â Â FRÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â OverviewÂ Â Â Â Job OpportunitiesÂ Â Â Development in the Groupe Publicis Groupeâ€™s philosophy revolves around the equation : ( IQ + EQ + TQ ) Intellectual Quotient, Technology Quotient and Emotional Quotient to power creativity and disruption. The talent we recruit has to score high on these elements: Intellectual Quotient: any approach to brand communication or product marketing requires serious thought and astute strategic counsel. Coupled with the need to transform a business model or marketing strategy, itâ€™s led to the development of consulting as an activity in its own right. A strong IQ is therefore crucial to face the challenges of the Digital Age. Technology Quotient: we know how to make the most of the unprecedented capabilities of new technologies. Emotional Quotient: itâ€™s the heart of our business and what makes us stand out. EQ, powered by creativity, ensures the success of the greatest alchemies, valorizing and transcending Publicis Groupeâ€™s offer to bring a vital touch of humanity to our brand content."/>
+            <experiencefragment_609781021
+                jcr:created="{Date}2021-12-20T15:53:13.552+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-12-20T15:53:32.132+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                fragmentPath="/content/experience-fragments/career/us/en/site/career-footer/master"
+                text="META TWITTER LINKEDIN INSTAGRAM YOUTUBE NEWS THE GROUPE SERVICES INVESTORS MEDIA KIT Press releases About PUBLICIS GROUPE Investors &amp; analysts LEGAL MENTIONS News feed Governance Key figures PRIVACY NOTICE Wall of creation CSR Shareholders COOKIE MANGAMENT History Share Price Viva Technology Careers Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â COPYRIGHT Â© 2019 PUBLICIS GROUPE Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ALL RIGHTS RESERVED"/>
+            <container
+                jcr:created="{Date}2021-12-20T16:56:47.560+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-12-20T16:56:47.560+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="career/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,56 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call="${clientlib.all @ categories=['career.frenchheader']}"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body><div class="navbar">
+<div class="subnav">
+<button class="subnavbtn2">${properties.text}</button>
+<div class="subnav-content">
+<a href="#company">Communiqués de presse</a>
+<a href="#team">Fil d'actualités</a>
+<a href="#careers">Les créations</a>
+</div>
+</div>
+<div class="subnav">
+<button class="subnavbtn1">${properties.text2}</button>
+<div class="subnav-content">
+<a href="#bring">A propos de Publicis Groupe</a>
+<a href="#deliver">Gouvernance</a>
+<a href="#package">RSE</a>
+<a href="#express">Histoire</a>
+<a href="#express">Viva Technology</a>
+<a href="#express">Carrières</a>
+</div>
+</div> 
+<div class="subnav">
+<button class="subnavbtn3">  <img src="${properties.fileReference}" style="width:100px; 
+        height:65px;"></button>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn4">${properties.text3}</button>
+</div>
+<div class="subnav">
+<button class="subnavbtn5">${properties.text4}</button>
+<div class="subnav-content1">
+<a href="#link1">Investisseurs & analystes</a>
+<a href="#link2">Nos chiffres-clés</a>
+<a href="#link3">Actionnaires</a>
+<a href="#link4">Données boursières</a>
+</div>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn6">${properties.text5}</button>
+<div class="subnav-content2">
+<a href="http://localhost:4502/content/career/us/en/final-career-page.html?wcmmode=disabled" target="_blank">${properties.text5}</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+
