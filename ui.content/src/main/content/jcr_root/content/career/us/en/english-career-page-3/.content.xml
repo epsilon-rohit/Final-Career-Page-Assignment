@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-01-13T11:58:54.027+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/career/settings/wcm/templates/home"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English-Career-Page-3"
+        sling:resourceType="career/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2022-01-13T11:34:12.967+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="career/components/container"
+            layout="responsiveGrid">
+            <responsivegrid
+                jcr:created="{Date}2022-01-13T11:34:22.515+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-13T11:37:19.920+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    jcr:created="{Date}2022-01-13T11:37:28.805+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-13T11:37:39.786+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <herobanner
+                        jcr:created="{Date}2022-01-13T11:53:54.276+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:57:59.977+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/herobanner"
+                        fileReference="/content/dam/career/img.png"
+                        text="Careers"/>
+                    <belowbanner
+                        jcr:created="{Date}2022-01-13T11:53:59.651+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:58:54.024+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/belowbanner"
+                        text="Overview"
+                        text1="Job Opportunities"
+                        text2="Development in the Groupe"
+                        text3="http://localhost:4502/content/career/us/en/english-career-page-1.html?wcmmode=disabled"
+                        text4="http://localhost:4502/content/career/us/en/english-career-page-2.html?wcmmode=disabled"
+                        text5="http://localhost:4502/content/career/us/en/english-career-page-3.html?wcmmode=disabled"/>
+                    <development_in_the_g
+                        jcr:created="{Date}2022-01-13T11:54:06.598+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:57:44.624+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/development-in-the-groupe"
+                        text="Development in the Groupe"
+                        text2="Because only people deliver value, we focus on our people "
+                        text3="and what they care about."/>
+                    <key_figures
+                        jcr:created="{Date}2022-01-13T11:54:15.407+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:55:43.824+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/key-figures"
+                        text="KEY FIGURES"
+                        text2="69"
+                        text3="DES COLLABORATEURS QUI ONT ÉTÉ FORMÉS EN 2017"
+                        text4="+ 1,4M"
+                        text5="D'HEURES DE FORMATION EN 2017"
+                        text6="+ 10 000"/>
+                    <english_toolstosucce
+                        jcr:created="{Date}2022-01-13T11:54:25.262+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:55:05.932+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/english-toolstosucceed"
+                        fileReference="/content/dam/career/groupe-careers-development.jpg"
+                        text="Championing Talent with Tools to Succeed"
+                        text2="EXECUTIVE DEVELOPMENT PROGRAMME"/>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

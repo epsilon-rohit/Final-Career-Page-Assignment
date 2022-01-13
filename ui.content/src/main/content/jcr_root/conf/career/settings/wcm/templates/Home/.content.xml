@@ -2,9 +2,9 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-01-11T15:23:47.414+05:30"
+        cq:lastModified="{Date}2022-01-13T11:37:54.270+05:30"
         cq:lastModifiedBy="admin"
-        cq:templateType="/libs/settings/wcm/template-types/html5page"
+        cq:templateType="/conf/career/settings/wcm/template-types/xf"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
         status="enabled"/>

@@ -10,7 +10,7 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:uuid="c052a356-09c6-488b-b2ff-1cc3e2c94cba"
+        jcr:uuid="b5f74ac7-0f76-4bed-9b17-707a48fd34c1"
         sling:resourceType="career/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"

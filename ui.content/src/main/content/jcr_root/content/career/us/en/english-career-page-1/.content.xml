@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-01-13T11:59:51.252+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/career/settings/wcm/templates/home"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English-Career-Page-1"
+        sling:resourceType="career/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2022-01-13T11:34:12.967+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="career/components/container"
+            layout="responsiveGrid">
+            <responsivegrid
+                jcr:created="{Date}2022-01-13T11:34:22.515+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-13T11:34:25.987+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <herobanner
+                        jcr:created="{Date}2022-01-13T11:38:14.134+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:38:43.552+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/herobanner"
+                        fileReference="/content/dam/career/img.png"
+                        text="Careers"/>
+                    <belowbanner
+                        jcr:created="{Date}2022-01-13T11:38:47.690+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:59:51.250+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/belowbanner"
+                        text="Overview"
+                        text1="Job Opportunities"
+                        text2="Development in the Groupe"
+                        text3="http://localhost:4502/content/career/us/en/english-career-page-1.html?wcmmode=disabled"
+                        text4="http://localhost:4502/content/career/us/en/english-career-page-2.html?wcmmode=disabled"
+                        text5="http://localhost:4502/content/career/us/en/english-career-page-3.html?wcmmode=disabled"/>
+                    <overview
+                        jcr:created="{Date}2022-01-13T11:39:13.226+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:39:25.186+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/overview"
+                        text="Overview"
+                        text1="THE WOMEN AND MEN WORKING AT PUBLICIS ARE MORE READY TO FACE THE FUTURE THAN AT ANY OTHER CREATIVE COMPANY. SINCE OUR BIRTH IN 1926, WE HAVE NEVER STOPPED TO LEAD THE CHANGE.">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </overview>
+                    <talent_equation
+                        jcr:created="{Date}2022-01-13T11:39:59.692+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:40:54.792+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/talent-equation"
+                        text="Talent@Publicis Groupe">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="10"/>
+                        </cq:responsive>
+                    </talent_equation>
+                    <talentequationbody
+                        jcr:created="{Date}2022-01-13T11:40:05.411+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:41:07.984+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/talentequationbody"
+                        text="The women and men working at Publicis are more ready to face the future than at any other creative company. Since our birth in 1926, we have always been the leaders of change. We have always managed to anticipate the developments and inflection points of our industry – successfully investing in digital in its early stages, for example. Transformation means keeping pace with the huge changes taking place in the economy, in technology and in society at large. In an age of convergence and empowerment, we aim to attract people can help our clients reinvent themselves and guide them through their transformation. That’s the challenge: help our clients transform their business. It demands colorful personalities with an irrepressible passion for all the opportunities unleashed by digital disruption.">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </talentequationbody>
+                    <talent_equation_1609358280
+                        jcr:created="{Date}2022-01-13T11:40:09.832+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:41:45.441+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/talent-equation"
+                        text="Publicis Groupe Talent Equation">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="10"/>
+                        </cq:responsive>
+                    </talent_equation_1609358280>
+                    <talent_equation_body
+                        jcr:created="{Date}2022-01-13T11:40:15.311+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:42:03.912+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/talent-equation-body"
+                        text="Publicis Groupe’s philosophy revolves around the equation :"
+                        text2="( IQ + EQ + TQ )"
+                        text3="Intellectual Quotient, Technology Quotient and Emotional Quotient to power creativity and disruption. The talent we recruit has to score high on these elements:">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </talent_equation_body>
+                    <secretary
+                        jcr:created="{Date}2022-01-13T11:40:20.650+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:42:46.196+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/secretary"
+                        fileReference="/content/dam/career/anne-gabrielle-heilbroner.jpg"
+                        firstname="Anne-Gabrielle"
+                        text2="Heilbronner"
+                        text3="Member of the"
+                        text4="Directoire, Secretary"
+                        text5="General,"
+                        text6=" Publicis Groupe"/>
+                    <pinkimage
+                        jcr:created="{Date}2022-01-13T11:40:32.210+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:43:17.200+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/pinkimage"
+                        fileReference="/content/dam/career/pink image.jpg"
+                        text="Discover the network and agencies of"
+                        text2="Publicis Groupe"
+                        text3="OUR SOLUTIONS"/>
+                    <upfooter
+                        jcr:created="{Date}2022-01-13T11:40:38.850+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-13T11:43:44.683+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="career/components/CAREER-content/upfooter"
+                        text="QUE FONT NOS TALENTS ?"
+                        text2="PARCOURS PROFESSIONNELS"
+                        text3="TOUT VOIR "/>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -5,8 +5,6 @@
     <page-content/>
     <xf-web-variation/>
     <rep:policy/>
-    <final-template/>
-    <french-career-page/>
-    <Content/>
-    <Home/>
+    <home/>
+    <content/>
 </jcr:root>

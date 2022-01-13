@@ -2,35 +2,40 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-10T16:46:18.393+05:30"
+        cq:lastModified="{Date}2022-01-13T12:23:22.891+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/qwerty!/settings/wcm/templates/french-career-page"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/career/settings/wcm/templates/content"
+        cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="French Career Page 1"
-        sling:resourceType="wcm/foundation/components/page">
+        jcr:title="French-Career-Page-1"
+        sling:resourceType="career/components/xfpage">
         <root
+            jcr:lastModified="{Date}2022-01-13T12:03:04.818+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="career/components/container"
+            layout="responsiveGrid">
             <responsivegrid
-                jcr:created="{Date}2022-01-03T11:12:12.514+05:30"
+                jcr:created="{Date}2022-01-13T12:03:15.299+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-03T11:12:19.368+05:30"
+                jcr:lastModified="{Date}2022-01-13T12:03:21.965+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <herobanner
-                    jcr:created="{Date}2022-01-03T11:14:31.526+05:30"
+                    jcr:created="{Date}2022-01-13T12:07:36.756+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T18:16:27.903+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:17:21.880+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/herobanner"
                     fileReference="/content/dam/career/img.png"
                     text="Carrières"/>
                 <french_belowbanner
-                    jcr:created="{Date}2022-01-03T12:36:13.199+05:30"
+                    jcr:created="{Date}2022-01-13T12:20:50.000+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T12:37:03.129+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:23:22.889+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-belowbanner"
@@ -38,14 +43,14 @@
                     text1="Offres d'emploi"
                     text2="Développement au sein du groupe"/>
                 <overview
-                    jcr:created="{Date}2022-01-03T12:43:25.951+05:30"
+                    jcr:created="{Date}2022-01-13T12:08:13.080+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T12:44:40.677+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:09:29.944+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/overview"
                     text="Présentation"
-                    text1="LES FEMMES ET LES HOMMES QUI TRAVAILLENT AU SEIN DE PUBLICIS GROUPE SONT PRÊTS À AFFRONTER L’AVENIR MIEUX QUE QUICONQUE DANS N’IMPORTE QUELLE AUTRE ENTREPRISE CRÉATIVE. DEPUIS LA CRÉATION DU GROUPE EN 1926, NOUS N’AVONS EU DE CESSE DE MONTRER LA VOIE DU CHANGEMENT.">
+                    text1="LES FEMMES ET LES HOMMES QUI TRAVAILLENT AU SEIN DE PUBLICIS GROUPE SONT PRÊTS À AFFRONTER L’AVENIR MIEUX QUE QUICONQUE DANS N’IMPORTE QUELLE AUTRE ENTREPRISE CRÉATIVE. DEPUIS LA CRÉATION DU GROUPE EN 1926, NOUS N’AVONS EU DE CESSE DE MONTRER LA VOIE DU CHANGEMENT">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -54,9 +59,16 @@
                     </cq:responsive>
                 </overview>
                 <talent_equation
-                    jcr:created="{Date}2022-01-03T12:45:10.174+05:30"
+                    jcr:created="{Date}2022-01-13T12:08:17.972+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T12:45:17.521+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:08:17.972+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="career/components/CAREER-content/talent-equation"/>
+                <talent_equation_287258250
+                    jcr:created="{Date}2022-01-13T12:08:27.209+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-13T12:09:47.927+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/talent-equation"
@@ -67,11 +79,11 @@
                             offset="2"
                             width="10"/>
                     </cq:responsive>
-                </talent_equation>
+                </talent_equation_287258250>
                 <talentequationbody
-                    jcr:created="{Date}2022-01-03T12:50:42.403+05:30"
+                    jcr:created="{Date}2022-01-13T12:10:36.254+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T12:50:53.207+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:11:23.252+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/talentequationbody"
@@ -83,10 +95,10 @@
                             width="8"/>
                     </cq:responsive>
                 </talentequationbody>
-                <talent_equation_1179301680
-                    jcr:created="{Date}2022-01-03T12:52:29.670+05:30"
+                <talent_equation_904997372
+                    jcr:created="{Date}2022-01-13T12:11:30.093+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T12:52:43.552+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:11:42.342+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/talent-equation"
@@ -97,11 +109,11 @@
                             offset="2"
                             width="10"/>
                     </cq:responsive>
-                </talent_equation_1179301680>
+                </talent_equation_904997372>
                 <french_talent_body
-                    jcr:created="{Date}2022-01-03T12:53:02.907+05:30"
+                    jcr:created="{Date}2022-01-13T12:11:54.770+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-07T15:53:03.905+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:12:24.528+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-talent-body"
@@ -116,40 +128,37 @@
                     </cq:responsive>
                 </french_talent_body>
                 <french_secretary
-                    jcr:created="{Date}2022-01-03T12:54:36.388+05:30"
+                    jcr:created="{Date}2022-01-13T12:12:49.541+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-07T15:49:20.747+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:13:50.971+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-secretary"
-                    fileName="anne-gabrielle-heilbroner.jpg"
                     fileReference="/content/dam/career/anne-gabrielle-heilbroner.jpg"
                     firstname="Anne-Gabrielle"
                     text2="Heilbronner"
                     text3="MEMBRE DU DIRECTOIRE,"
                     text4="SECRÉTAIRE GÉNÉRAL,"
                     text5="PUBLICIS GROUPE"
-                    text6=".">
-                    <file/>
-                </french_secretary>
+                    text6="."/>
                 <pinkimage
-                    jcr:created="{Date}2022-01-06T11:44:30.408+05:30"
+                    jcr:created="{Date}2022-01-13T12:14:04.877+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T11:45:02.890+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:16:02.816+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/pinkimage"
                     fileReference="/content/dam/career/pink image.jpg"
-                    text="Discover the network and agencies of"
+                    text="Découvrez les réseaux et les agences de "
                     text2="Publicis Groupe"
-                    text3="OUR SOLUTIONS"/>
-                <abovefooter
-                    jcr:created="{Date}2022-01-10T16:46:04.356+05:30"
+                    text3="NOTRE OFFRE"/>
+                <upfooter
+                    jcr:created="{Date}2022-01-13T12:14:10.870+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-10T16:46:18.391+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:14:27.763+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="career/components/CAREER-content/abovefooter"
+                    sling:resourceType="career/components/CAREER-content/upfooter"
                     text="QUE FONT NOS TALENTS ?"
                     text2="PARCOURS PROFESSIONNELS"
                     text3="TOUT VOIR "/>

@@ -2,35 +2,40 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-07T15:55:57.516+05:30"
+        cq:lastModified="{Date}2022-01-13T12:47:30.779+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/qwerty!/settings/wcm/templates/french-career-page"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/career/settings/wcm/templates/content"
+        cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="French Career Page 3"
-        sling:resourceType="wcm/foundation/components/page">
+        jcr:title="French-Career-Page-3"
+        sling:resourceType="career/components/xfpage">
         <root
+            jcr:lastModified="{Date}2022-01-13T12:03:04.818+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="career/components/container"
+            layout="responsiveGrid">
             <responsivegrid
-                jcr:created="{Date}2022-01-03T11:12:12.514+05:30"
+                jcr:created="{Date}2022-01-13T12:03:15.299+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-03T11:12:19.368+05:30"
+                jcr:lastModified="{Date}2022-01-13T12:03:21.965+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <herobanner
-                    jcr:created="{Date}2022-01-03T11:56:14.850+05:30"
+                    jcr:created="{Date}2022-01-13T12:34:14.038+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T18:05:37.715+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:47:18.949+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/herobanner"
                     fileReference="/content/dam/career/img.png"
                     text="Carrières"/>
                 <french_belowbanner
-                    jcr:created="{Date}2022-01-03T18:06:23.141+05:30"
+                    jcr:created="{Date}2022-01-13T12:34:22.115+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-07T15:32:43.677+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:47:30.777+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-belowbanner"
@@ -38,46 +43,46 @@
                     text1="Offres d'emploi"
                     text2="Développement au sein du groupe"/>
                 <french_development_i
-                    jcr:created="{Date}2022-01-03T18:10:58.457+05:30"
+                    jcr:created="{Date}2022-01-13T12:34:28.043+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-07T15:41:42.018+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:46:11.666+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-development-in-the-groupe"
                     text="[Développement au sein du Groupe]"
-                    text2="Parce que seuls les femmes et les hommes créent de la valeur, nous plaçons nos collaborateurs et leurs intérêts au cœur de nos priorités.">
+                    text2="Parce que seuls les femmes et les hommes créent de la "
+                    text3="valeur, nous plaçons nos collaborateurs et leurs intérêts au"
+                    text4=" cœur de nos priorités.">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="11"/>
+                            width="12"/>
                     </cq:responsive>
                 </french_development_i>
                 <key_figures
-                    jcr:created="{Date}2022-01-03T18:11:34.784+05:30"
+                    jcr:created="{Date}2022-01-13T12:34:33.818+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-03T18:12:19.749+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:35:41.092+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/key-figures"
-                    text="CHIFFRES CLÉS"
+                    text="KEY FIGURES"
                     text2="69"
                     text3="DES COLLABORATEURS QUI ONT ÉTÉ FORMÉS EN 2017"
                     text4="+ 1,4M"
                     text5="D'HEURES DE FORMATION EN 2017"
                     text6="+ 10 000"/>
                 <french_toolstosuccee
-                    jcr:created="{Date}2022-01-03T18:12:40.391+05:30"
+                    jcr:created="{Date}2022-01-13T12:34:38.244+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-07T15:55:57.512+05:30"
+                    jcr:lastModified="{Date}2022-01-13T12:35:15.286+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="career/components/CAREER-content/french-toolstosucceed"
-                    fileName="groupe-careers-development.jpg"
+                    fileReference="/content/dam/career/groupe-careers-development.jpg"
                     text="Offrir aux hauts potentiels les moyens de réussir"
-                    text2="EXECUTIVE DEVELOPMENT PROGRAMME">
-                    <file/>
-                </french_toolstosuccee>
+                    text2="EXECUTIVE DEVELOPMENT PROGRAMME"/>
             </responsivegrid>
         </root>
     </jcr:content>

@@ -3,41 +3,52 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-01-07T10:47:07.468+05:30"
+        cq:lastModified="{Date}2022-01-13T11:37:28.809+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/career/settings/wcm/templates/final-template"
+        cq:template="/conf/career/settings/wcm/templates/home"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="wcm/foundation/components/page">
+        sling:resourceType="career/components/xfpage">
         <root
+            jcr:lastModified="{Date}2022-01-13T11:34:12.967+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="career/components/container"
+            layout="responsiveGrid">
             <experiencefragment
-                jcr:created="{Date}2022-01-02T21:18:55.731+05:30"
+                jcr:created="{Date}2022-01-13T11:34:16.703+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-02T21:20:38.376+05:30"
+                jcr:lastModified="{Date}2022-01-13T11:34:57.413+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
-                fragmentPath="/content/experience-fragments/career/us/en/site/final-career-header/master"
+                fragmentPath="/content/experience-fragments/career/us/en/site/English-Page-Header/master"
                 text="NEWS Press Releases News Feed Wall Of Creation THE GROUPE About PUBLICIS GROUPE Governance CSR History Viva Technology Careers SERVICES INVESTORS Investors &amp; analysts Key figures Shareholders Share Price FR FR"/>
             <responsivegrid
-                jcr:created="{Date}2022-01-02T21:19:02.972+05:30"
+                jcr:created="{Date}2022-01-13T11:34:22.515+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-02T21:19:02.972+05:30"
+                jcr:lastModified="{Date}2022-01-13T11:37:19.920+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    jcr:created="{Date}2022-01-13T11:37:28.805+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-13T11:37:28.805+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                </responsivegrid>
             </responsivegrid>
-            <experiencefragment_673193889
-                jcr:created="{Date}2022-01-06T17:25:07.377+05:30"
+            <experiencefragment_1631925816
+                jcr:created="{Date}2022-01-13T11:34:41.069+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T17:25:41.554+05:30"
+                jcr:lastModified="{Date}2022-01-13T11:35:11.560+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
-                fragmentPath="/content/experience-fragments/career/us/en/site/final-footer/master"
+                fragmentPath="/content/experience-fragments/career/us/en/site/English-Page-Footer/master"
                 text="NEWS Press Release News Feed Wall Of Creation THE GROUPE About Publicis Groupe Governance CSR History Viva Technology Careers SERVICES INVESTORS Investors &amp; Analysts Key Figures Shareholders Shareprice MEDIA KIT LEGAL MENTIONS PRIVACY NOTICE COOKIE MANAGEMENT COPYRIGHT Â© 2019 PUBLICIS GROUPE ALL RIGHTS RESERVED"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -45,7 +56,7 @@
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}650"/>
+                    width="{Long}768"/>
                 <tablet
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"

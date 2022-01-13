@@ -4,14 +4,14 @@
     <jcr:content
         cq:lastModified="{Date}2022-01-07T17:18:04.867+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-12-22T16:50:05.545+05:30"
+        cq:lastReplicated="{Date}2022-01-12T18:20:20.668+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:policy="career/components/page/policy"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
-        jcr:uuid="158fc9a1-a826-4524-8d4f-d73d20c744b9"
+        jcr:uuid="52dedd0a-9cc7-48ea-87e1-39382dbd7c56"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="career/components/container/policy_1575040440977"
